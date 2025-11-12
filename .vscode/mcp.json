@@ -1,0 +1,24 @@
+{
+	"servers": {
+		// "onshape-mcp-server": {
+		// 	"type": "stdio",
+		// 	"command": "fastmcp",
+		// 	"args": [
+		// 		"run",
+		// 		"echo.py:mcp"
+		// 	],
+		// 	"dev": {
+		// 		"watch": "*.py"
+		// 	}
+		// },
+		"on-shapemcp": {
+			"type": "stdio",
+			"command": "fastmcp",
+			"args": [
+				"run",
+				"onshape.py:mcp"
+			]
+		}
+	},
+	"inputs": []
+}
