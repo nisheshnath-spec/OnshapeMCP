@@ -1,0 +1,8 @@
+{
+    "deployment": {
+        "env": {
+            "ONSHAPE_SECRET_KEY": "${ONSHAPE_SECRET_KEY}",
+            "ONSHAPE_ACCESS_KEY": "${ONSHAPE_ACCESS_KEY}"
+        }
+    }
+}

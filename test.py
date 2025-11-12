@@ -130,9 +130,9 @@ payload={
 
 
 try:
-    response = requests.post(
-        BASE_URL + "/partstudios/d/7f592dc620c4d28fa1999e58/w/7a28b2daedf5c7675a7eb667/e/7c6c60fbc23e129c57019f6a/features",
-        json=payload,
+    response = requests.get(
+        BASE_URL + "/documents/",
+        # json=payload,
         auth=(ACCESS_KEY, SECRET_KEY),
         headers={'Accept': 'application/json;charset=UTF-8;qs=0.09',
             'Content-Type': 'application/json'}
