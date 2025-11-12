@@ -37,7 +37,6 @@ get_endpoint_template = [
     wid, wm, wmid, wv, wvm, or fid in brackets make sure you replace it with the actual value of the id
     and not pass in the endpoint containing one of the prefixes. This is the format for endpoints. 
     "/", 
-    "/d/{did}",
     "/{did}/acl", 
     "/{did}/permissionset",
     "/{did}/w/{wid}/mergePreview",
