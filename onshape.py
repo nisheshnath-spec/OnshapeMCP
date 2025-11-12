@@ -35,9 +35,7 @@ get_endpoint_template = [
     If the request requires an ID, use the / endpoint to retrieve it.
     did refers to the given document ID, replace it with that. If ever you are asked to input prefixes, like did, 
     wid, wm, wmid, wv, wvm, or fid in brackets make sure you replace it with the actual value of the id
-    and not pass in the endpoint containing one of the prefixes. This is the format for endpoints. The /d endppoint
-    is one of the most useful tools to get access to You are
-    allowed to input any given id numbers where you see a prefix to do so.:
+    and not pass in the endpoint containing one of the prefixes. This is the format for endpoints. 
     "/", 
     "/d/{did}",
     "/{did}/acl", 
